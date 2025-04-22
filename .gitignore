@@ -1,0 +1,19 @@
+# Entorno virtual
+env/
+venv/
+ENV/
+.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib
