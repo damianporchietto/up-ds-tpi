@@ -18,11 +18,15 @@ chmod +x setup_linux.sh
 ./setup_linux.sh
 ```
 
+El script creará un entorno virtual, lo activará, instalará las dependencias necesarias (incluyendo setuptools en caso de Python 3.12) y proporcionará instrucciones para futuros usos.
+
 ### Windows
 ```
 # Ejecutar el script haciendo doble clic o desde CMD:
 setup_windows.bat
 ```
+
+El script creará un entorno virtual, lo activará, detectará si estás usando Python 3.12 para instalar setuptools si es necesario, e instalará todas las dependencias.
 
 ### macOS
 ```bash
@@ -32,6 +36,22 @@ chmod +x setup_mac.sh
 # Ejecutar el script
 ./setup_mac.sh
 ```
+
+Funciona de manera similar al script de Linux, creando y configurando el entorno virtual con todas las dependencias necesarias.
+
+## Inicio Rápido del Notebook (Linux)
+
+Para iniciar el notebook de Jupyter directamente (después de la configuración inicial), puedes usar:
+
+```bash
+# Dar permisos de ejecución si es la primera vez
+chmod +x start_notebook_linux.sh
+
+# Ejecutar el notebook
+./start_notebook_linux.sh
+```
+
+Este script activa automáticamente el entorno virtual e inicia el servidor de Jupyter Notebook.
 
 ## Activación Manual del Entorno
 
@@ -70,3 +90,4 @@ Si encuentras errores durante la instalación:
 - `TPI.ipynb`: Notebook con el análisis exploratorio de datos
 - `requirements.txt`: Dependencias del proyecto
 - Scripts de configuración para diferentes sistemas operativos
+- `start_notebook_linux.sh`: Script para iniciar rápidamente el notebook en Linux

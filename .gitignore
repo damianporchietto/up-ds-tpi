@@ -3,6 +3,7 @@ env/
 venv/
 ENV/
 .env/
+.ipynb_checkpoints/
 
 # Archivos de Python
 __pycache__/
